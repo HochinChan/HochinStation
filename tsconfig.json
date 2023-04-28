@@ -4,7 +4,17 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "stores/*":["./src/stores/*"],
+      "api/*":["./src/api/*"],
+      "pages/*":["./src/pages/*"],
+      "hooks/*":["./src/hooks/*"],
+      "http/*":["./src/http/*"],
+      "utils/*":["./src/utils/*"],
+      "comps/*":["./src/components/*"],
+      "img/*":["./src/assets/img/*"],
+      "style/*":["./src/assets/style/*"],
+      "assets/*":["./src/assets/*"],
+      "@/*": ["./src/*"],
     }
   },
 
