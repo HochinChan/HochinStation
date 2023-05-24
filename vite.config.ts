@@ -32,4 +32,11 @@ export default defineConfig({
   server: {
     port: 5555,
   },
+  css: {
+    preprocessorOptions: {
+      less: {
+        additionalData: `@import url('@/assets/styles/global.less');`,
+      },
+    },
+  },
 });
